@@ -1,0 +1,231 @@
+body {
+    background: #AEC9A9;
+    color: #000000 !important;
+    font-family: Courier;
+}
+
+.panel-success > .panel-heading {
+    color: #000000;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.form-control:focus {
+  border-color: #AEC9A9;
+  -webkit-box-shadow: -4px 0px 8px 2px rgba(91,107,87,0.1);
+  box-shadow: -4px 0px 8px 2px rgba(91,107,87,0.1);
+}
+
+h3 {
+    text-align: center;
+}
+
+a:link, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #999;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.btn-primary, .btn-primary:hover {
+    color: #000000;
+    background-color: #DFF0D8;
+    border-color: #CCCCCC;
+}
+
+.btn-default.active {
+    color: #000000;
+    border-color: #CCCCCC;
+}
+
+.btn-default {
+    background-color: #FFFFFF;
+}
+
+.nav-pills > li > a:link {
+    background-color: #EBEBEB;
+}
+
+.nav-pills > li > a:hover {
+    color: #FFFFFF;
+    background-color: #ABC4A7 !important;
+}
+
+.nav-pills > li.active > a:visited {
+    color: #FFFFFF;
+    background-color: #688F61;
+}
+
+.basicProduct {
+    padding: 1px 10px 1px 10px;
+}
+
+.banned, .banned a {
+    background-color: #E8C3C3;
+    color: #000000;
+    border-radius: 3px;
+    pointer-events: none;
+}
+
+.selected, .selected a {
+    background-color: #DFF0D8;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.buitenSeizoen {
+    font-size: 10px;
+    background-color: #E8C3C3;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.jumbotron {
+    padding: 30px 15px;
+    margin: 100px 100px 100px 100px;
+    color: inherit;
+    background-color: #eee;
+}
+
+/* PRINT FUNCTION */
+@media screen {
+    .printOnly {
+        display: none;
+    }
+}
+
+.printBtn {
+    color: #000000;
+    float: right;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    body {
+        margin: 0mm !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .printOnly, .printOnly * {
+        visibility: visible;
+    }
+
+    .printOnly.printRemove {
+        display: none;
+    }
+
+    .printRemove, .printRemove * {
+        display: none;
+    }
+
+    .printRemove * {
+        visibility: visible;
+    }
+
+    @page { 
+        margin: 0px;
+    }
+}
+
+/* TOGGLE BUTTON */
+.zoekToggle {
+    display: inline-block;
+}
+.toggle {
+    position: relative;
+    overflow: hidden;
+}
+
+.toggle input [type=checkbox] {
+    display: none;
+}
+
+.toggle-group {
+    position: absolute;
+    width: 200%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: left .35s;
+    -webkit-transition: left .35s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.toggle.off .toggle-group {
+    left: -100%;
+}
+
+.toggle-on {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.toggle-off {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.toggle-group {
+    position: absolute;
+    width: 200%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: left .35s;
+    -webkit-transition: left .35s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.toggle-handle { 
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 0;
+    border-width: 0 1px;
+}
+
+.toggle.btn { 
+    min-width: 59px;
+    min-height: 34px;
+}
+
+.toggle-on.btn { 
+    padding-right: 24px;
+}
+
+.toggle-off.btn { 
+    padding-left: 24px;
+}

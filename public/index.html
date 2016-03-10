@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app='saladCheck'>
+<head>
+
+    <title>Salad Check</title>
+    
+    <script src="/scripts/jquery/dist/jquery.min.js"></script>
+    <script src="/scripts/angular/angular.min.js"></script>
+    <script src="/scripts/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+    <script src="/scripts/moment/min/moment-with-locales.min.js"></script>
+
+    <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/scripts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/app.js"></script>
+    <script src="controllers/saladCtrl.js"></script>
+    <script src="controllers/printCtrl.js"></script>
+    <script src="controllers/toggleCtrl.js"></script>
+    <script src="services/saladService.js"></script>
+
+</head>
+
+<body ng-controller="mainCtrl">
+
+    <div class="container" print-remove>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>Salad Check</h3>
+            </div>
+            <div class="row panel-body">
+                <div class="col-xs-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            Kies een product om toe te voegen aan de salade.
+                        </div>
+                        <div class="panel-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Zoek product.." ng-model="searchItem" ng-keyup="searchProduct()">
+                                <span class="input-group-btn">
+                                    <input type="checkbox" class="btn btn-default" toggle-button ng-model="outSeason" data-on="Seizoen aan" data-off="Seizoen uit">
+                                    <input type="checkbox" class="btn btn-default" toggle-button checked ng-model="menuCompleet" data-on="Menu aan" data-off="Menu uit">
+                                </span>
+                            </div>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li ng-repeat="categories in ingredients.category" ng-class="{'active':product}">
+                                    <a href ng-click="product=!product">{{ categories.name }}</a>            
+                                    <ul>
+                                        <li ng-show="product || menuCompleet" ng-repeat="products in categories.product | filter : {name: searchItem}">
+                                            <a href ng-click="addProduct(products)" class="basicProduct" ng-class="productBans.contains(products.name) ? 'banned' : '' || productName.contains(products.name) ? 'selected' : ''">{{ products.name }}</a> <span ng-show="outSeason" ng-if="inSeason.contains(products.name)" class="buitenSeizoen">Niet in het seizoen</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="panel panel-success" print-section>
+                        <div class="panel-heading">
+                            Salade ingredienten <a href print-btn class="printBtn"><i class="fa fa-print fa-lg"></i></a>
+                        </div>
+                        <div class="panel-body">
+                            <div ng-repeat="list in productName">
+                                <a href ng-click="deleteProduct(list)">{{ list }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div> 
+    <div class="jumbotron" print-only>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                Salade ingredienten
+            </div>
+            <div class="panel-body">
+                <div ng-repeat="list in productName">
+                    {{ list }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

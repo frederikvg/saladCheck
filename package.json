@@ -1,0 +1,35 @@
+{
+  "name": "saladCheck",
+  "version": "1.0.0",
+  "description": "Which veggies and fruities can you combine to create a salad?",
+  "main": "saladcheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "supervisor saladcheck.js"
+  },
+  "keywords": [
+    "vegetables",
+    "fruit",
+    "salade",
+    "cooking",
+    "Frederik van Genderen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frederikvg/saladCheck.git"
+  },
+  "author": "Frederik van Genderen <frederikvangenderen.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "body-parser": "*",
+    "method-override": "*",
+    "angular": "*",
+    "moment": "*",
+    "font-awesome": "*",
+    "bootstrap": "*",
+    "bootstrap-toggle": "*",
+    "jquery": "*"
+  }
+}

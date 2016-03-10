@@ -1,0 +1,1087 @@
+{   
+"name": "ingredients",
+"category": 
+    [
+        {
+        "name": "Azijn",
+        "product": 
+            [
+                {
+                "name": "Azijn",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ "Kool", "Vis", "Vlees" ]
+                },{
+                "name": "Balsamicoazijn",
+                "startseason": "150",
+                "endseason": "365",
+                "excluded": 
+                    [ "Biefstuk", "Vis", "Kool", "Azijn" ]
+                }
+            ]
+        },{
+        "name": "Bladgroenten",
+        "product": 
+            [
+                {
+                "name": "Bladsla",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "IJsbergsla",
+                "startseason": "153",
+                "endseason": "213",
+                "excluded": 
+                    [ "Geraspte kokos","bla" ]
+                },{
+                "name": "Kool (gekookt/gebakken)",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Raapstelen",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Radicchio",
+                "startseason": "153",
+                "endseason": "305",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Rucola",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Snijbiet",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Spinazie",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Waterkers",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Witlof",
+                "startseason": "015",
+                "endseason": "150",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Bonen/Peulvruchten",
+        "product": 
+            [
+                {
+                "name": "Kidneybonen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Kikkererwt",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Linzen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Fruit",
+        "product": 
+            [
+                {
+                "name": "Appel",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Bessen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Druiven",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Granaatappel",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Lychee",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Meloen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Peer",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Perzik",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sinaasappel",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Groenten",
+        "product": 
+            [
+                {
+                "name": "Asperge",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Aubergine (gebakken/geroosterd)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Avocado",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Bieten (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Bleekselderij",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Bloemkool (rauw/gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Broccoli (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Courgette (rauw)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Doperwten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Komkommer",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mais (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Paprika",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Peulen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pompoen (geroosterd)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Radijs",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Snijboon (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sperzieboon (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Spruitjes (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sugar Snaps",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Tomaat",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Venkel",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Wortel",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Kaas",
+        "product": 
+            [
+                {
+                "name": "Blauwe kaas",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Brie",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Camembert",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Feta",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Geitenkaas (hard)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Geitenkaas (zacht)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Harde kaas (belegen/oud)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Harde kaas (jong)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mascarpone",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mozzarella",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Parmezaanse kaas",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Ricotta",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Roomkaas",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Kruiden",
+        "product": 
+            [
+                {
+                "name": "Basilicum",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Bieslook",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Citroengras",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Dille",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Dragon",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Koriander",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Munt",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Oregano",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Peterselie",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Rozemarijn",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Salie",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Tijm",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Noten en Zaden",
+        "product": 
+            [
+                {
+                "name": "Amandelen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Cashewnoten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Hazelnoten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pecannoten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pijnboompitten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pindas",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pistachenoten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sesamzaad",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Walnoten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Zonnebloempitten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Olie",
+        "product": 
+            [
+                {
+                "name": "Olijfolie (extra vergine)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pompoenpittenolie",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sesamolie",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Walnootolie",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Overig",
+        "product": 
+            [
+                {
+                "name": "Aardpeer",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ "Brie", "Camembert", "Mozzarella", "Munt", "Gember (rauw)", "Sesamzaad", "Vanille", "Wasabi", "Honing", "Stroop", "Geraspte kokos", "Sambal", "Sojasaus", "ketchup", "Vissaus", "Oestersaus", "Citroen (ingelegd)", "Geitenkaas (zacht)", "Ricotta", "Mascarpone", "Aardappel (gekookt)", "Aardappel (gebakken)", "Artisjokhart (zuur)", "Komkommer", "Mais (gekookt)", "Perzik", "Druiven", "Peer", "Bessen", "Sinaasappel", "Meloen", "Granaatappel", "Lychee", "Krenten", "Cashewnoten", "Rozijnen", "Pindas", "Rijst (witte)", "Brood (geweekt)", "Croutons", "Pasta", "Noedels", "Worst (gedroogd)", "Palmsuiker" ]
+                },{
+                "name": "Champignons",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ "Vanille", "Wasabi", "Geraspte kokos", "Zuurkool", "Citroen (ingelegd)", "Perzik", "Druiven", "Bessen", "Sinaasappel", "Meloen", "Granaatappel", "Lychee", "Krenten", "Rozijnen", "Visfilet (gebakken/gekookt)", "Haring (zuur)", "Zalm (rauw)", "Visfilet (gerookt)", "Tonijn (uit blik)", "Sadine (uit blik)", "Garnaal (Noors, gekookt)", "Garnaal (grijs, gekookt)", "Kreeft (gekookt/gegrild)", "Mosselen (gekookt)", "Krabvlees (gekookt)", "Inktvis (gebakken)", "Palmsuiker", "Sinaasappelsap" ]
+                },{
+                "name": "Citroen (ingelegd)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ "Parmezaanse kaas", "Brie", "Camembert", "Mierikswortel", "Augurk", "Vanille", "Ansjovis (gezouten)", "Ketchup", "Zuurkool", "Ei (gekookt)", "Ei (gebakken)", "Kool (gekookt/gebakken)", "Champignons", "Paddestoelen", "Pindas", "Brood (geweekt)", "Garnaal (grijs, gekookt)", "Worstjes (gebakken)", "Ham (gekookt)", "Worst (gedroogd)", "Aardpeer" ]
+                },{
+                "name": "Geraspte kokos",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Krenten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Olijven",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Paddestoelen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Rozijnen",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Zongedroogde tomaten",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Zuurkool",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Pittigheid",
+        "product": 
+            [
+                {
+                "name": "Gember",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Knoflook",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Lenteui",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mierikswortel",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mosterd",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Peper (zwart)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Prei (rauw)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Rode peper",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sambal",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sjalot/Ui",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Wasibi",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Proteine (Vega)",
+        "product": 
+            [
+                {
+                "name": "Ei (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Ei (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Sauzen/Sappen",
+        "product": 
+            [
+                {
+                "name": "Citroensap",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Ketchup",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Limoensap",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mayonaise",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Oestersaus",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pesto",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sinaasappelsap",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sojasaus",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Tahini",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Vissaus",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Worchestersaus",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Vis/Zeevruchten",
+        "product": 
+            [
+                {
+                "name": "Ansjovis (gezouten)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Coquille (gebakken/gegrild)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Garnaal (grijs, gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Garnaal (Noors, gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Haring (zuur)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Inktvis (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Krabvlees (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Kreeft (gekookt/gegrild)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Mosselen (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Sardine (uit blik)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Tonijn (uit blik)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Visfilet (gebakken/gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Visfilet (gerookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Zalm (rauw)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Vlees",
+        "product": 
+            [
+                {
+                "name": "Ham (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Kipfilet (gebakken/gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Kipfilet (gerookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Runderfilet (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Spekjes (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Varkensfilet (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Worst (gedroogd)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Worstjes (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Zetmeel",
+        "product": 
+            [
+                {
+                "name": "Aardappel (gebakken)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Aardappel (gekookt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Brood (geweekt)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Bulgur",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Couscous",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Croutons",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Noedels",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pasta",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Quinoa",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Rijst (witte)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Zoet",
+        "product": 
+            [
+                {
+                "name": "Honing",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Palmsuiker",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Stroop",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Suiker",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Vanille",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        },{
+        "name": "Zuur",
+        "product": 
+            [
+                {
+                "name": "Artisjokhart (zuur)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Augurk",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Kappertjes",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Paprika (geroosterd)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Pepertjes (zuur)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                },{
+                "name": "Ui (zuur)",
+                "startseason": "1",
+                "endseason": "365",
+                "excluded": 
+                    [ ]
+                }
+            ]
+        }
+    ]
+}
